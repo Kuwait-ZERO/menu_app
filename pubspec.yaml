@@ -1,0 +1,25 @@
+name: menu_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/biryani.jpg
+    - assets/images/burger.jpg
+    - assets/images/pasta.jpg
+    - assets/images/pizza.jpg
+    - assets/images/suchi.jpg
+  uses-material-design: true
